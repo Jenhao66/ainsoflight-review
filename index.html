@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Ain Sof Light Tarot 審片室</title>
+<style>
+:root{
+  --night:#14172B; --indigo:#232A4D; --gold:#C9A35B; --parchment:#F3EBDD;
+  --mist:#A9A6B8; --sage:#8FA58E; --clay:#B5755F; --line:rgba(201,163,91,.28);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--night); color:var(--parchment);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei","Segoe UI",sans-serif;
+}
+a{color:var(--gold)}
+.wrap{max-width:980px; margin:0 auto; padding:20px 16px 56px}
+header.site{padding:8px 0 18px; border-bottom:1px solid var(--line); margin-bottom:22px}
+header.site .handle{color:var(--gold); letter-spacing:.14em; font-size:13px; text-transform:uppercase}
+header.site h1{margin:4px 0 0; font:600 26px/1.25 Georgia,"Times New Roman","Noto Serif TC",serif}
+header.site p{margin:6px 0 0; color:var(--mist); font-size:14px}
+
+.card{background:var(--indigo); border:1px solid var(--line); border-radius:16px; padding:18px 16px; margin-bottom:28px}
+.meta{display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:13px; color:var(--mist)}
+.badge{background:var(--gold); color:var(--night); font-weight:700; border-radius:999px; padding:2px 12px; font-size:13px}
+.chip{border:1px solid var(--line); border-radius:999px; padding:1px 10px}
+.card h2{margin:10px 0 8px; font:600 22px/1.3 Georgia,"Times New Roman","Noto Serif TC",serif}
+.summary{margin:0 0 14px; padding:10px 12px; border-left:3px solid var(--gold); background:rgba(20,23,43,.55); border-radius:0 8px 8px 0; font-size:15px}
+
+.tabs{display:flex; gap:8px; margin:0 0 12px}
+.tabs button{
+  flex:1; min-height:44px; border-radius:10px; border:1px solid var(--line);
+  background:transparent; color:var(--parchment); font:inherit; font-weight:600; cursor:pointer;
+}
+.tabs button[aria-selected="true"]{background:var(--gold); color:var(--night); border-color:var(--gold)}
+.panels{display:block}
+.panel[hidden]{display:none}
+.panel h3{display:none; margin:0 0 10px; color:var(--gold); font-size:15px; letter-spacing:.08em}
+.player{display:block; width:100%; max-width:360px; margin:0 auto; aspect-ratio:9/16; border:1px solid var(--line); border-radius:12px; background:#000}
+
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:8px 16px;
+  border-radius:10px; border:1px solid var(--gold); color:var(--gold); background:transparent;
+  font:inherit; font-weight:600; text-decoration:none; cursor:pointer;
+}
+.btn.solid{background:var(--gold); color:var(--night)}
+.btn.small{min-height:36px; padding:4px 14px; font-size:14px}
+.btn.done{border-color:var(--sage); color:var(--sage)}
+.row{display:flex; flex-wrap:wrap; gap:10px; margin:12px 0}
+.row.center{justify-content:center}
+
+.note{color:var(--mist); font-size:13.5px; margin:0 0 10px}
+.note.player-note{max-width:360px; margin:0 auto 4px; text-align:center}
+.cover{display:flex; align-items:center; gap:12px; margin:0 0 14px; font-size:14px; color:var(--mist)}
+.cover img{width:72px; aspect-ratio:9/16; object-fit:cover; border-radius:8px; border:1px solid var(--line); background:#000}
+
+.block{margin-top:14px; border:1px solid var(--line); border-radius:10px; background:rgba(20,23,43,.55)}
+.block .head{display:flex; justify-content:space-between; align-items:center; gap:10px; padding:8px 10px 8px 14px; border-bottom:1px solid var(--line)}
+.block .head span{font-size:14px; color:var(--gold); font-weight:600}
+.block pre{margin:0; padding:12px 14px; white-space:pre-wrap; overflow-wrap:anywhere; font:inherit; font-size:15.5px}
+.block pre.tags{color:var(--sage)}
+
+.changes h3,.links h3{margin:22px 0 6px; font-size:16px; color:var(--gold)}
+.changes ul{margin:0; padding-left:1.25em}
+.changes li{margin:6px 0}
+.error{border:1px solid var(--clay); color:var(--parchment); background:rgba(181,117,95,.18); border-radius:10px; padding:14px}
+footer{color:var(--mist); font-size:13px; text-align:center; margin-top:24px}
+
+@media (min-width:760px){
+  .tabs{display:none}
+  .panels{display:grid; grid-template-columns:1fr 1fr; gap:22px}
+  .panel[hidden]{display:block}
+  .panel h3{display:block}
+  .card{padding:24px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="handle" id="site-handle">@ainsoflighttarot</div>
+    <h1 id="site-title">審片室</h1>
+    <p>內部審片用，請勿轉傳連結。</p>
+  </header>
+  <main id="app"><p class="note">載入中…</p></main>
+  <footer>僅供審片 · 不對外公開</footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var app = document.getElementById("app");
+
+  function el(tag, attrs, children) {
+    var n = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      if (k === "text") n.textContent = attrs[k];
+      else if (k === "class") n.className = attrs[k];
+      else n.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { if (c) n.appendChild(c); });
+    return n;
+  }
+  function extLink(text, href, cls) {
+    return el("a", { class: cls || "btn", href: href, target: "_blank", rel: "noopener noreferrer", text: text });
+  }
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text);
+    return new Promise(function (resolve, reject) {
+      var ta = el("textarea", { readonly: "", style: "position:fixed;top:0;left:0;opacity:0" });
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, text.length);
+      var ok = false;
+      try { ok = document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+      ok ? resolve() : reject(new Error("copy failed"));
+    });
+  }
+  function copyBlock(label, text, cls) {
+    var btn = el("button", { class: "btn small", type: "button", text: "複製" });
+    btn.addEventListener("click", function () {
+      copyText(text).then(function () {
+        btn.textContent = "已複製"; btn.classList.add("done");
+      }, function () {
+        btn.textContent = "請長按文字手動複製";
+      }).then(function () {
+        setTimeout(function () { btn.textContent = "複製"; btn.classList.remove("done"); }, 1800);
+      });
+    });
+    return el("div", { class: "block" }, [
+      el("div", { class: "head" }, [el("span", { text: label }), btn]),
+      el("pre", { class: cls || "", text: text })
+    ]);
+  }
+
+  function platformPanel(v, p, idx) {
+    var viewUrl = "https://drive.google.com/file/d/" + p.drive_id + "/view";
+    var player = el("iframe", {
+      class: "player", src: "https://drive.google.com/file/d/" + p.drive_id + "/preview",
+      title: p.label + " 雲端硬碟播放器", allow: "autoplay; fullscreen", allowfullscreen: "", loading: "lazy"
+    });
+    var panel = el("section", { class: "panel", "data-key": p.key, id: v.id + "-" + p.key }, [
+      el("h3", { text: p.label }),
+      el("div", { class: "row center" }, [extLink("在 Google 雲端硬碟開啟", viewUrl)]),
+      player,
+      el("p", { class: "note player-note", text: "影片在私人雲端硬碟，需用擁有檔案的 Google 帳號登入才能播放；播不出來請按上方按鈕在雲端硬碟開啟。" }),
+      copyBlock(p.label + " 貼文文案", p.caption),
+      copyBlock(p.label + " Hashtags", p.hashtags, "tags")
+    ]);
+    if (idx > 0) panel.hidden = true;
+    return panel;
+  }
+
+  function videoCard(v) {
+    var panels = el("div", { class: "panels" }, v.platforms.map(function (p, i) { return platformPanel(v, p, i); }));
+    var tabs = el("div", { class: "tabs", role: "tablist" }, v.platforms.map(function (p, i) {
+      var b = el("button", { type: "button", role: "tab", "aria-selected": i === 0 ? "true" : "false", "aria-controls": v.id + "-" + p.key, text: p.label });
+      b.addEventListener("click", function () {
+        Array.prototype.forEach.call(tabs.children, function (t) { t.setAttribute("aria-selected", t === b ? "true" : "false"); });
+        Array.prototype.forEach.call(panels.children, function (pn) {
+          var on = pn.getAttribute("data-key") === p.key;
+          pn.hidden = !on;
+        });
+      });
+      return b;
+    }));
+    var meta = el("div", { class: "meta" }, [
+      el("span", { class: "badge", text: v.status }),
+      v.week ? el("span", { class: "chip", text: v.week }) : null,
+      v.series ? el("span", { class: "chip", text: v.series }) : null,
+      v.version ? el("span", { class: "chip", text: v.version }) : null,
+      v.duration ? el("span", { class: "chip", text: v.duration }) : null
+    ]);
+    var links = el("div", { class: "row" }, [
+      v.notion_url ? extLink("開啟 Notion 任務", v.notion_url, "btn solid") : null,
+      v.drive_folder ? extLink("雲端硬碟資料夾", v.drive_folder) : null
+    ]);
+    var changes = (v.changes && v.changes.length) ? el("div", { class: "changes" }, [
+      el("h3", { text: "這一版改了什麼" }),
+      el("ul", {}, v.changes.map(function (c) { return el("li", { text: c }); }))
+    ]) : null;
+    var cover = v.cover ? el("div", { class: "cover" }, [
+      el("img", { src: v.cover, alt: "封面", loading: "lazy" }),
+      v.cover_drive_url ? extLink("封面原圖（雲端硬碟）", v.cover_drive_url, "btn small") : el("span", { text: "封面" })
+    ]) : null;
+    return el("article", { class: "card", id: v.id }, [
+      meta,
+      el("h2", { text: v.title }),
+      v.review_summary ? el("p", { class: "summary", text: v.review_summary }) : null,
+      cover, tabs, panels, changes, links
+    ]);
+  }
+
+  fetch("data.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (data) {
+      if (data.site) {
+        if (data.site.title) { document.title = data.site.title; document.getElementById("site-title").textContent = data.site.title; }
+        if (data.site.handle) document.getElementById("site-handle").textContent = data.site.handle;
+      }
+      app.textContent = "";
+      (data.videos || []).forEach(function (v) { app.appendChild(videoCard(v)); });
+      if (!(data.videos || []).length) app.appendChild(el("p", { class: "note", text: "目前沒有待審影片。" }));
+    })
+    .catch(function (e) {
+      app.textContent = "";
+      app.appendChild(el("div", { class: "error", text: "讀不到 data.json（" + e.message + "）。請用 python3 -m http.server 開啟本資料夾，不要直接雙擊 index.html。" }));
+    });
+})();
+</script>
+</body>
+</html>
