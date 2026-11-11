@@ -4,5 +4,41 @@
     "handle": "@ainsoflighttarot",
     "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2"
   },
-  "videos": []
+  "videos": [
+    {
+      "id": "w46-yn1-verbatim-01",
+      "week": "W46",
+      "series": "Yes or No",
+      "title": "Yes or No #1: Should I text first this week?",
+      "version": "分鏡01 逐字重做",
+      "duration": "9 秒（循環）",
+      "status": "待審片",
+      "review_summary": "【審閱用】第 1 集題目：這週要不要先傳訊息？開場：IG「如果有個安靜的聊天室一直在你腦子裡轉，停在這裡」，TikTok「這週該先傳嗎？覺得對了就暫停」。2026-11-11 依使用者分鏡 01 逐字重做，9 秒循環，待審片。",
+      "cover": "media/w46-yn1-verbatim-01_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/1X5YacpG4BCEkthlvyNt6T52G_dpiIw2W/view",
+      "notion_url": "https://www.notion.so/4132ee2fe88481288e6ec82add1e7a25",
+      "drive_folder": "https://drive.google.com/drive/folders/1YeyWe0uVjFmgmlxBhKehsyjEJXCTy-k7",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1RX4rbknQbVJt3pj2gcLph8h73sCIQwoG",
+          "caption": "Should you text first this week? Pause the Reel. Wherever it stops is today's answer.\n\nIf you've been opening and closing the same quiet chat, here is one thing to try whichever way it lands. Before you type anything, write one clear sentence of what you actually want from their reply. Read it back. If it still feels true, you'll know what you're reaching out for.\n\nComment TEXT or 📱 and I'll send what your answer can mean for that first text.\n\nThis is for reference. For a serious question, book a personal reading via the link in bio.\n\nFor entertainment and self-reflection.",
+          "hashtags": "#yesornotarot #oraclecards #tarotreading #intuition #ainsoflighttarot"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1RX4rbknQbVJt3pj2gcLph8h73sCIQwoG",
+          "caption": "Pause when it feels right. Wherever it stops is your answer for this week. Write one sentence of what you want from the reply before you text. More readings on IG @ainsoflighttarot, link in bio.\n\nFor entertainment and self-reflection.",
+          "hashtags": "#yesorno #tarottok #oraclecards #textfirst"
+        }
+      ],
+      "changes": [
+        "2026-11-11 依使用者分鏡 01 逐字重做：時間、座標、色碼、字型與文案皆依分鏡，未新增分鏡以外的元素。",
+        "單一檔 1080×1920、30fps、9.0 秒、H.264 yuv420p、無音軌；雲端以 .mov（video/quicktime）上傳以便播放。",
+        "分鏡裡寫在安全區外的位置（y=250 標籤、y=1490 提示句）以及 XIX／XVIII 均依原文保留，沒有自行改位或拿掉。"
+      ]
+    }
+  ]
 }
