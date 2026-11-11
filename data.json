@@ -6,6 +6,43 @@
   },
   "videos": [
     {
+      "id": "ga-c1c877e8c824",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "PAC: You commute in and still sit on Zoom alone. Pick a pile for one real connection",
+      "version": "Opus 初剪 v1",
+      "duration": "34 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】大眾選牌 Reel（三堆）：進了辦公室卻還是整天 Zoom。Opus 初剪 v1（34 秒，Template A），文案逐字照核准稿。",
+      "cover": "https://drive.google.com/thumbnail?id=1HQKxGuJpfgYld3BHtqnFlUH_2aDM72ZN&sz=w720",
+      "cover_drive_url": "https://drive.google.com/file/d/1HQKxGuJpfgYld3BHtqnFlUH_2aDM72ZN/view",
+      "notion_url": "https://www.notion.so/4132ee2fe88481aea205c1c877e8c824",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1ITyGtNqIba0T7cYUBd2UiIpi2KuCLMEf",
+          "caption": "You made the commute, sat at a real desk, and still spent the day talking to faces on a screen. In one survey covered by CNBC, nearly half of office workers had no in-person meetings on their most recent office day, so you are far from alone in this.\nPick pile 1, 2 or 3 and see which small move fits your week. Whatever you picked, the next step is the same size: this week, name one person and book one short in-person moment.\nComment WALK or 🚶 for your pile's full note.\nWant a personal reading on your work week? Book through the link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#pickapile #tarotreading #officelife #hybridwork #worklife"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1vSPwMHwILIGz0dg89vHDgKYNSnMMFJsC",
+          "caption": "Office day, headphones on, no one to talk to. Pick 1, 2 or 3 and try your pile's small move this week. The full notes for each pile are on Instagram at @ainsoflighttarot, and the link in bio has more. Personal readings are there too. For entertainment and self-reflection.",
+          "hashtags": "#pickacard #tarottok #officelife #hybridwork"
+        }
+      ],
+      "changes": [
+        "第一次剪成影片：照核准稿 34 秒分鏡，Template A 暖色桌面背景（程式繪製，無照片、無 AI 圖）。",
+        "三堆牌背朝下標 1／2／3，依序抬起揭曉；關鍵字 connection／a longing to be heard／rhythm 照核准稿。",
+        "唯一牌面：1909 RWS 錢幣三，出現在最後下一步畫面（照視覺備註）。",
+        "IG 結尾「Comment WALK for your pile's full note.」（畫面拿掉 🚶 與 or）；TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：每句上字檢查與文字邊界 19/19 通過；版面偏左、留白較多，請看是否要調。"
+      ]
+    },
+    {
       "id": "w46-yn2-t01",
       "week": "W46",
       "series": "Yes or No",
