@@ -10,36 +10,253 @@
       "week": "W47",
       "series": "一般主題",
       "title": "PAC: You commute in and still sit on Zoom alone. Pick a pile for one real connection",
-      "version": "Opus 初剪 v1",
+      "version": "Opus 重剪 v2（版面置中）",
       "duration": "34 秒",
       "status": "待審片",
-      "review_summary": "【審閱用】大眾選牌 Reel（三堆）：進了辦公室卻還是整天 Zoom。Opus 初剪 v1（34 秒，Template A），文案逐字照核准稿。",
-      "cover": "media/ga-c1c877e8c824_cover.svg",
-      "cover_drive_url": "https://drive.google.com/file/d/1HQKxGuJpfgYld3BHtqnFlUH_2aDM72ZN/view",
+      "review_summary": "【審閱用】大眾選牌 Reel（三堆）：進了辦公室卻還是整天 Zoom。Opus 重剪 v2（版面置中），34 秒，文案逐字照核准稿。",
+      "cover": "media/ga-c1c877e8c824_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/1aLNZyktE25mN5K1sza_MXLRXuSA6iHbc/view",
       "notion_url": "https://www.notion.so/4132ee2fe88481aea205c1c877e8c824",
       "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
       "platforms": [
         {
           "key": "ig",
           "label": "Instagram",
-          "drive_id": "1ITyGtNqIba0T7cYUBd2UiIpi2KuCLMEf",
+          "drive_id": "1kcwrWqYGxgGc1EO69ZT2gDa8yTPCaIAM",
           "caption": "You made the commute, sat at a real desk, and still spent the day talking to faces on a screen. In one survey covered by CNBC, nearly half of office workers had no in-person meetings on their most recent office day, so you are far from alone in this.\nPick pile 1, 2 or 3 and see which small move fits your week. Whatever you picked, the next step is the same size: this week, name one person and book one short in-person moment.\nComment WALK or 🚶 for your pile's full note.\nWant a personal reading on your work week? Book through the link in bio.\nFor entertainment and self-reflection.",
           "hashtags": "#pickapile #tarotreading #officelife #hybridwork #worklife"
         },
         {
           "key": "tiktok",
           "label": "TikTok",
-          "drive_id": "1vSPwMHwILIGz0dg89vHDgKYNSnMMFJsC",
+          "drive_id": "1HKjzzn4yQmjFL5Gs0AETVzIVuAo8QiWv",
           "caption": "Office day, headphones on, no one to talk to. Pick 1, 2 or 3 and try your pile's small move this week. The full notes for each pile are on Instagram at @ainsoflighttarot, and the link in bio has more. Personal readings are there too. For entertainment and self-reflection.",
           "hashtags": "#pickacard #tarottok #officelife #hybridwork"
         }
       ],
       "changes": [
-        "第一次剪成影片：照核准稿 34 秒分鏡，Template A 暖色桌面背景（程式繪製，無照片、無 AI 圖）。",
-        "三堆牌背朝下標 1／2／3，依序抬起揭曉；關鍵字 connection／a longing to be heard／rhythm 照核准稿。",
-        "唯一牌面：1909 RWS 錢幣三，出現在最後下一步畫面（照視覺備註）。",
-        "IG 結尾「Comment WALK for your pile's full note.」（畫面拿掉 🚶 與 or）；TikTok 導向 IG＋bio，無留言關鍵字。",
-        "QA：每句上字檢查與文字邊界 19/19 通過；版面偏左、留白較多，請看是否要調。"
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "牌面畫面：1909 RWS 錢幣三放大置中，牌名置中在牌下方、下一步文字置中在上方，成為一組（不再卡在左上）。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 WALK，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 38 行全 PASS，文字邊界 IG 19 PASS / 0 FAIL、TikTok 19 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
+      ]
+    },
+    {
+      "id": "ga-c980239c6ecf",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "Ask one friend to introduce you: fewer matches, better odds",
+      "version": "Opus 重剪 v2（版面置中）",
+      "duration": "30 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】一般主題 Reel：請朋友介紹一個人：配對少一點、機會好一點。Opus 重剪 v2（版面置中），30 秒，文案逐字照核准稿。",
+      "cover": "media/ga-c980239c6ecf_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/13Mc-zwi5isKoLDSqo60dpo3F20M9Mdxo/view",
+      "notion_url": "https://www.notion.so/4132ee2fe884819da1e5c980239c6ecf",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1cBmC2oYGyc-MTJdjacqSMlZPY1OchtXv",
+          "caption": "If the apps have started to feel like a second job, you're not alone in wanting something slower. Your friends have seen you on good days and messy ones, and they often know who you'd actually click with.\nIn one survey, 19% of people said they'd trust a close friend most to pick their next date, compared with 3% who'd trust an app. That's one survey and only a direction, but it matches what a lot of us feel.\nThis week, send one message to one friend. Ask if there's anyone they think you'd get along with, or invite a few people over and ask a friend to bring someone you haven't met. An intro is simply a chance to meet someone new, with someone you trust standing beside you.\nWho's the friend you'd text first?\nComment INTRO or 🤝 for a short follow-up note with both message templates.\nFor a personal reading on your next step in love, visit the link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#datingadvice #meetingpeople #threeofcups #tarotguidance #intuition"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1gUV4fQFQ_4jEw2sHi2TOG1G12GRxXSQK",
+          "caption": "Tired of swiping? Try one message to one friend this week. Ask for one intro, or ask them to bring someone to your next small hang.\nMore practical guidance on IG @ainsoflighttarot, and monthly readings through the bio link. For entertainment and self-reflection.",
+          "hashtags": "#datingtok #datingapps #singlelife #tarottok"
+        }
+      ],
+      "changes": [
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "牌面畫面：1909 RWS 聖杯三放大置中，牌名置中在牌下方、下一步文字置中在上方，成為一組（不再卡在左上）。",
+        "訊息泡泡那一段字比較多，該段手機道具淡出、文字整組置中，確保字級 ≥44px。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 INTRO，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 30 行全 PASS，文字邊界 IG 17 PASS / 0 FAIL、TikTok 17 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
+      ]
+    },
+    {
+      "id": "ga-ca0dfd91d458",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "PAC: Dating chats that never become dates. Pick a pile for your next move",
+      "version": "Opus 重剪 v2（版面置中）",
+      "duration": "36 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】大眾選牌 Reel（三堆）：一直聊卻約不出來。Opus 重剪 v2（版面置中），36 秒，文案逐字照核准稿。",
+      "cover": "media/ga-ca0dfd91d458_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/1dExTktnHk4v4gl_CFP8XFbrMk9Pfh_A5/view",
+      "notion_url": "https://www.notion.so/4132ee2fe88481fdaff3ca0dfd91d458",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1VO92jK64CMB2oNSJaflIugB-gc-E3k-9",
+          "caption": "Weeks of chatting with someone, and it still hasn't turned into a plan? You're far from alone. Pick the pile that pulls you and take that move this week.\nPile 1 makes the plan, Pile 2 steps back kindly, and Pile 3 sets your own rule for next time. Whichever you chose, give yourself 48 hours to make one decision about that chat: ask them out or close it. How they reply is up to them. The decision is yours.\nComment DATE or 📅 for your pile's full note.\nWant a personal reading? Book through the link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#pickacard #tarotreading #datingapps #moderndating #ainsoflighttarot"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1MxhoFGJnlB9QXm_OCh7Yr7UUL333MkH7",
+          "caption": "That chat that's been looping for weeks gets one decision from you within 48 hours: ask them out or close it. Pick 1, 2 or 3 and let your pile show you how.\nThe full pile notes are on Instagram at @ainsoflighttarot, and you can find the link in bio. For entertainment and self-reflection.",
+          "hashtags": "#pickapile #tarottok #datingadvice #datingapptips"
+        }
+      ],
+      "changes": [
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "牌面畫面：1909 RWS 寶劍二放大置中，牌名置中在牌下方、下一步文字置中在上方，成為一組（不再卡在左上）。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 DATE，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 38 行全 PASS，文字邊界 IG 19 PASS / 0 FAIL、TikTok 19 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
+      ]
+    },
+    {
+      "id": "ga-cd8346dad699",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "PAC: Stuck staying? Pick a pile for your next small move this week",
+      "version": "Opus 重剪 v2（版面置中）",
+      "duration": "36 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】大眾選牌 Reel（三堆）：想走又先留下：這週一個小動作。Opus 重剪 v2（版面置中），36 秒，文案逐字照核准稿。",
+      "cover": "media/ga-cd8346dad699_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/1avCpbVjTAoy_F5VJxpY__aE_lP8JH54K/view",
+      "notion_url": "https://www.notion.so/4132ee2fe88481f1b906cd8346dad699",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1h8ng11yQgzaA7Ole4bgCgagiC60UCHyM",
+          "caption": "Staying at your job for now, but you'd probably leave if the market felt safer? You're far from alone. One survey of about 1,000 employed US adults (Software Finder, Aug 2026) found more than half said they'd leave if the market improved.\nBefore you pick, write down: \"If a safe opportunity came tomorrow, would I still stay?\" Then choose pile 1, 2 or 3. Each one ends with one small move for this week.\nComment MOVE or 🧭 for your pile's full note.\nWant a personal reading? Book through the link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#pickapile #tarotreading #weeklytarot #careerreflection #worklifebalance"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1NwGALkArDs2dFrv3wDA24nSOZXIp2Vkn",
+          "caption": "Staying at work but not sure you want to? Write down \"If a safe opportunity came tomorrow, would I still stay?\" and then pick pile 1, 2 or 3. Each pile has one small move for this week. The full pile notes are on Instagram at @ainsoflighttarot, link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#pickapile #tarottok #careertok #worklife"
+        }
+      ],
+      "changes": [
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "1909 RWS 寶劍二立在第 2 堆牌後方、置中露出（照視覺備註）；三堆牌整排置中、位置全片固定。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 MOVE，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 30 行全 PASS，文字邊界 IG 22 PASS / 0 FAIL、TikTok 22 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
+      ]
+    },
+    {
+      "id": "ga-d7e9b4b2b39c",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "PAC: Pick a pile for the choice you've been delaying",
+      "version": "Opus 重剪 v2（版面置中）",
+      "duration": "34 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】大眾選牌 Reel（三堆）：一直拖著的那個決定。Opus 重剪 v2（版面置中），34 秒，文案逐字照核准稿。",
+      "cover": "media/ga-d7e9b4b2b39c_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/18ql94PdL3eAfhkFYl7zm260L5KaFxx8H/view",
+      "notion_url": "https://www.notion.so/4132ee2fe8848123adb8d7e9b4b2b39c",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1J0JTZ2Fd61_fg7U1vG2M-fO8cPXnTnsA",
+          "caption": "You keep moving it to next week. The job offer, the text you haven't sent, the move you keep talking about. Before you pick, type the choice in one line in your notes app, then choose pile 1, 2 or 3 and read your step for this week.\nComment DECIDE or ✍️ for your pile's full note.\nWant a personal reading on your situation? Book through the link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#pickapile #pickacard #tarotreading #riderwaitesmith #decisionmaking"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1kOrWffbb5is53mtILBSbbp-oKvzWI9v1",
+          "caption": "That choice you keep pushing to next week gets one small step today. Write it in your notes app, pick 1, 2 or 3, and keep that one line. The full pile notes are on Instagram at @ainsoflighttarot, and personal readings are through the link in bio. For entertainment and self-reflection.",
+          "hashtags": "#pickapile #tarottok #pickacardreading #tarotreading"
+        }
+      ],
+      "changes": [
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "1909 RWS 寶劍二立在第 2 堆牌後方、置中露出（照視覺備註）；三堆牌整排置中、位置全片固定。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 DECIDE，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 32 行全 PASS，文字邊界 IG 16 PASS / 0 FAIL、TikTok 16 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
+      ]
+    },
+    {
+      "id": "ga-fdfe31f61d3e",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "They went quiet: one message rule for tonight",
+      "version": "Opus 重剪 v2（版面置中）",
+      "duration": "32 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】一般主題 Reel：對方突然安靜：今晚的一則訊息規則。Opus 重剪 v2（版面置中），32 秒，文案逐字照核准稿。",
+      "cover": "media/ga-fdfe31f61d3e_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/1a6RxhJttdkS1RxE6FNLscaGIaeqOd4r_/view",
+      "notion_url": "https://www.notion.so/4132ee2fe88481b585d8fdfe31f61d3e",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1dTShPZLKSEfy4TIP2Tyd638Wt5O8WQtN",
+          "caption": "Someone you've been talking to went quiet, or the replies keep running hot and cold. You can spend tonight refreshing the chat, or you can choose one path and let that be enough.\nPath A is one clear, kind check-in. Something like: \"Hey, I've enjoyed talking with you and I'd like to keep getting to know you. If you're up for that, let me know.\" You send it once, and then you stop. Their reply, or no reply, is information you can use.\nPath B is 72 hours without checking the chat or their profile. When the time is up, you close the loop for yourself by writing one line about what you learned. Maybe it's that you want replies that feel steady. That line belongs to you either way.\nIn one 2026 dating-app survey, more than a third of people named mixed signals or ghosting as a stressor, so if this is where you are tonight, plenty of people are standing there too.\nYour step for tonight: open your notes, write which path you're taking, and do it once.\nComment QUIET or 🤫 for a short follow-up note.\nWant a personal reading on what's next for you? Book through the link in bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#datingadvice #earlydating #ghosting #tarotguidance #selfreflection"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "1kXBCCOPyvPCtrXp4dx3QTdnJZ1Y6yCiA",
+          "caption": "They went quiet, so tonight you choose one path. Send one kind check-in and stop, or wait 72 hours and write one line about what you learned. Write your choice in your notes and do it once.\nMore practical tarot guidance on IG @ainsoflighttarot, and personal readings are through the link in bio. For entertainment and self-reflection.",
+          "hashtags": "#datingtok #ghosting #tarottok #datingadvice"
+        }
+      ],
+      "changes": [
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "牌面畫面：1909 RWS 寶劍二放大置中，牌名置中在牌下方、下一步文字置中在上方，成為一組（不再卡在左上）。",
+        "訊息泡泡那一段字比較多，該段手機道具淡出、文字整組置中，確保字級 ≥44px。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 QUIET，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 28 行全 PASS，文字邊界 IG 16 PASS / 0 FAIL、TikTok 16 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
+      ]
+    },
+    {
+      "id": "ga-ffc29ef98be3",
+      "week": "W47",
+      "series": "一般主題",
+      "title": "You fantasize about quitting but plan to stay: one decision test this week",
+      "version": "Opus 重剪 v2（版面置中）",
+      "duration": "31 秒",
+      "status": "待審片",
+      "review_summary": "【審閱用】一般主題 Reel：想離職卻打算留下：30 分鐘測試。Opus 重剪 v2（版面置中），31 秒，文案逐字照核准稿。",
+      "cover": "media/ga-ffc29ef98be3_v2_cover.svg",
+      "cover_drive_url": "https://drive.google.com/file/d/13N_RcS4_KDGIatoaa2Ze1CbmWH36B9w_/view",
+      "notion_url": "https://www.notion.so/4132ee2fe884819f928dffc29ef98be3",
+      "drive_folder": "https://drive.google.com/drive/folders/1rSU_GqUX32fTpOSP25rlgiL40A7BhZz2",
+      "platforms": [
+        {
+          "key": "ig",
+          "label": "Instagram",
+          "drive_id": "1_pTSFGcoRaJNS29VMcg-Ip0y-Z0c6TDY",
+          "caption": "You say work is fine. You also catch yourself picturing the day you walk out. And when you're honest, your plan is to stay for now. Holding all three at once can wear you down quietly.\nHere is one small test for this week. Book 30 minutes and open a notebook. Answer one question: what would need to change for me to feel engaged here? Write three points. They can be about the work itself, the people, your schedule, or something in you. The page is just for you, and nothing on it has to be decided yet.\nThe Hermit holds up a lantern to see what's right in front of him. Your three points do the same. What you do with them is your call.\nComment ENGAGE or 📓 for a short follow-up note.\nWant a personal reading on where you are right now? The link is in our bio.\nFor entertainment and self-reflection.",
+          "hashtags": "#tarotforreallife #journalingprompt #selfreflection #worklife #thehermit"
+        },
+        {
+          "key": "tiktok",
+          "label": "TikTok",
+          "drive_id": "16yPUXkDq9RwKCR5VkX1_1d3q5X2_5HfQ",
+          "caption": "Saying work is fine, daydreaming about quitting, and planning to stay all at once? Book 30 minutes this week and write three points answering this question: what would need to change for me to feel engaged here? Keep it in your notebook. More practical tarot for real life on IG @ainsoflighttarot, and the link is in our bio.",
+          "hashtags": "#tarottok #worktok #journaling #selfreflection"
+        }
+      ],
+      "changes": [
+        "版面重排（v2）：文字、牌堆、道具、牌面與結尾卡全部以可用欄中心（x=500，避開右側 UI 欄）置中，文字改置中對齊；文字群組緊貼在牌堆／道具上方，不再留中間空帶。",
+        "牌面畫面：1909 RWS 隱士放大置中，牌名置中在牌下方、下一步文字置中在上方，成為一組（不再卡在左上）。",
+        "文案逐字照核准稿（只拿掉 IG 留言句的 emoji）；IG 結尾留言關鍵字 ENGAGE，TikTok 導向 IG＋bio，無留言關鍵字。",
+        "QA：上字檢查 IG＋TikTok 共 32 行全 PASS，文字邊界 IG 17 PASS / 0 FAIL、TikTok 17 PASS / 0 FAIL；規格 1080×1920／30fps／H.264 High／AAC／faststart 皆通過。"
       ]
     },
     {
